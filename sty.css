@@ -1,0 +1,76 @@
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: blanchedalmond;
+    margin-top: 70px;
+    margin-left: 500px;
+    border: 2px solid brown;
+    border-radius: 20px;
+   
+}
+form{
+    margin-left: 120px;
+    padding-top: 170px;
+    
+
+}
+.longurl{
+    margin-bottom: 10px;
+
+}
+body{
+    background:linear-gradient(130deg, blanchedalmond,black);
+    animation: bg 5s infinite alternate;
+    
+    
+    padding: 10px;
+}
+@keyframes bg{
+    0%{
+        background:linear-gradient(0deg, blanchedalmond,black); 
+        color: aliceblue;  
+    }
+    10%{
+        background:linear-gradient(45deg, blanchedalmond,black);  
+        color: cyan;
+    }
+    20%{
+        background:linear-gradient(90deg, blanchedalmond,black); 
+        color: aliceblue; 
+    }
+    30%{
+        background:linear-gradient(135deg, blanchedalmond,black);  
+        color: greenyellow;
+    }
+    40%{
+        background:linear-gradient(180deg, blanchedalmond,black);  
+        color: cyan; 
+    }
+    50%{
+        background:linear-gradient(210deg, blanchedalmond,black); 
+        color: black; 
+    }
+    60%{
+        background:linear-gradient(270deg, blanchedalmond,black);
+        color: aliceblue;   
+    }
+    70%{
+        background:linear-gradient(300deg, blanchedalmond,black); 
+        color: cyan; 
+    }
+    80%{
+        background:linear-gradient(330deg, blanchedalmond,black); 
+        color: aliceblue;  
+    }
+    90%{
+        background:linear-gradient(360deg, blanchedalmond,black);  
+        color: red;
+    }
+    100%{
+        background:linear-gradient(0deg, blanchedalmond,black);
+        color: cyan; 
+        
+    }
+    
+    
+}
